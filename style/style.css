@@ -9,6 +9,7 @@
     font-family: 'Open Sans', sans-serif;
 }   
 
+
 p{
     color: white;
     font-size: 0.8rem;
@@ -27,16 +28,37 @@ img{
 
 main{
     height: 100vh;
-    border: 1rem solid rgb(251, 251, 251);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     background: black;
+    padding: 5rem 3rem;
+    position: relative;
 }   
 
 article{
-    width: calc(100% / 7);
-    height: calc(100% / 5);
+    width: calc((100% / 7)+3.5);
+    
     position: relative;
-    margin: 0.35rem;
+    margin: 0rem 0.5rem 1rem 0rem;
+}
+
+.borderbuttons{
+    position: absolute;
+    color: white;
+    background-color: rgba(101, 223, 154, 0.5);
+    padding: 0.1rem 0.1rem;
+    border-radius: 0.4rem;
+    
+}
+
+.speaker-view{
+    top: 0;
+    right: 2.5%;
+}
+
+.cross{
+    width: 1.2rem;
+    top: 0;
+    right: 1%;
 }
