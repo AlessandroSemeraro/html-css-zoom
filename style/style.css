@@ -9,7 +9,6 @@
     font-family: 'Open Sans', sans-serif;
 }   
 
-
 p{
     color: white;
     font-size: 0.8rem;
@@ -32,8 +31,7 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     background: black;
-    padding: 0 3rem 2rem 3rem;
-    
+    padding: 4.5rem 3rem 2rem 3rem;
     overflow: auto;
 }   
 
@@ -68,5 +66,9 @@ article{
     height: 8%;
     position: fixed;
     background-color: black;
-    z-index: 1
+    z-index: 1;
+}
+
+.border-top-article{
+    border-top: 10rem;
 }
