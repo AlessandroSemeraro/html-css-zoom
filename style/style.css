@@ -32,8 +32,8 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     background: black;
-    padding: 5rem 3rem;
-    position: relative;
+    padding: 0 3rem 2rem 3rem;
+    
     overflow: auto;
 }   
 
@@ -44,7 +44,7 @@ article{
 }
 
 .borderbuttons{
-    position: absolute;
+    position: fixed;
     color: white;
     background-color: rgba(101, 223, 154, 0.5);
     padding: 0.1rem 0.1rem;
@@ -53,12 +53,20 @@ article{
 }
 
 .speaker-view{
-    top: 0;
+    top: 0.2%;
     right: 2.5%;
 }
 
 .cross{
     width: 1.2rem;
-    top: 0;
-    right: 1%;
+    top: 0.2%;
+    right: 1.2%;
+}
+
+.container-buttons{
+    width: 98%;
+    height: 8%;
+    position: fixed;
+    background-color: black;
+    z-index: 1
 }
