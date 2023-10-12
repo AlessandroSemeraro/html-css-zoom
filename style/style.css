@@ -34,11 +34,11 @@ main{
     background: black;
     padding: 5rem 3rem;
     position: relative;
+    overflow: auto;
 }   
 
 article{
     width: calc((100% / 7)+3.5);
-    
     position: relative;
     margin: 0rem 0.5rem 1rem 0rem;
 }
